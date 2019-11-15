@@ -1,9 +1,9 @@
 <?php 
 
-$arrayName = array(
-	    '1' =>'bob' ,
-	    '2' =>'kees' ,
-	    '3' =>'tom' ,
-	    );
-var_dump($arrayName)
+$arrayName = array('leah' , 'beau' , 'ric' , 'lee' , 'jumbo');
+	
+foreach ($arrayName as $i) {
+	echo $i ;
+	echo PHP_EOL  ;
+}
  ?>
